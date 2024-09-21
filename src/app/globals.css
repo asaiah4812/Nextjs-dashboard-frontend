@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+  --bg:#334155;
+  --bgsecondary:#64748b;
+  --bgprimary:#94a3b8;
+  --bglight:#cbd5e1;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background: var(--bg);
+  height: 100vh;
+  overflow: hidden;
+}
+
+/* .mager{
+  margin: 0;
+} */
+
+
+/* table tr td{
+  margin: 0;
+} */
